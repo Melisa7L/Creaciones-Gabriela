@@ -9,6 +9,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: ./Creaciones-Gabriela  # 👈 ejecuta los comandos dentro de esta carpeta
+
     steps:
       - name: Checkout 🧩
         uses: actions/checkout@v4
@@ -28,4 +32,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./Creaciones-Gabriela/dist   # 👈 ruta correcta del build
