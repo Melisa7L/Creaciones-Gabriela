@@ -11,7 +11,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./Creaciones-Gabriela  # 👈 ejecuta los comandos dentro de esta carpeta
+        working-directory: Creaciones-Gabriela  # 👈 sin "./"
 
     steps:
       - name: Checkout 🧩
@@ -32,4 +32,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./Creaciones-Gabriela/dist   # 👈 ruta correcta del build
+          publish_dir: Creaciones-Gabriela/dist  # 👈 sin "./"
