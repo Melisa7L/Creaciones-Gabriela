@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/mi-catalogo/',
+  base: '/Creaciones-Gabriela/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
