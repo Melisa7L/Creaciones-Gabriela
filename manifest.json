@@ -1,0 +1,18 @@
+{
+  "name": "Catálogo de Vestidos",
+  "short_name": "Vestidos",
+  "description": "Catálogo elegante de vestidos con funcionalidad WhatsApp",
+  "start_url": "/mi-catalogo/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
+
+
