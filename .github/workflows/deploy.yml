@@ -3,15 +3,11 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # o 'master', según tu rama principal
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
-    defaults:
-      run:
-        working-directory: Creaciones-Gabriela  # 👈 sin "./"
 
     steps:
       - name: Checkout 🧩
@@ -24,12 +20,14 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+        working-directory: Creaciones-Gabriela  # 👈 solo acá
 
       - name: Build project
         run: npm run build
+        working-directory: Creaciones-Gabriela  # 👈 también acá
 
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: Creaciones-Gabriela/dist  # 👈 sin "./"
+          publish_dir: Creaciones-Gabriela/dist  # 👈 ruta correcta del build
