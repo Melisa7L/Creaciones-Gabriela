@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.catalogo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.vestido-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.vestido-card:hover {
+    transform: scale(1.05);
+}
+
+.vestido-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.vestido-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.whatsapp-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.whatsapp-button a {
+    background-color: #25D366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.whatsapp-button a:hover {
+    background-color: #128C7E;
+}
