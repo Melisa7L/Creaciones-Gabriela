@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://melisa7l.github.io/Creaciones-Gabriela",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
