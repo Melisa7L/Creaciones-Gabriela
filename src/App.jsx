@@ -254,7 +254,7 @@ function App() {
         className="logo-img-centered"
       />
       <div className="logo-text-centered">
-        <div className="logo-main-centered">CREACIONES GABRIELA</div>
+        <div className="logo-main-centered">CREACIONES GABRIELA.</div>
         <div className="logo-sub-centered">Alta Costura |   Diseños Exclusivos de Gabriela Orellana</div>
       </div>
     </div>
