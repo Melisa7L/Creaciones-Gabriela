@@ -235,8 +235,17 @@ function App() {
   }
 
   const contactarWhatsApp = (vestido) => {
-    const whatsappUrl = generateWhatsAppUrl(vestido, 'preview')
-    window.open(whatsappUrl, '_blank')
+    const numeroWhatsApp = '5493884359548'; // Número con código de país, sin '+' ni espacios.
+    const imageUrl = new URL(vestido.imagen, window.location.href).href;
+    const mensaje = `
+¡Hola! Quisiera más información sobre este vestido:
+
+*${vestido.nombre}*
+${vestido.descripcion}
+
+${imageUrl}`.trim();
+    const whatsappUrl = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
+    window.open(whatsappUrl, '_blank');
   }
   const contactarWhatsAppGeneral = () => {
     const url = generateGeneralWhatsAppUrl()
