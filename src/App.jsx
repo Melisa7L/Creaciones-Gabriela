@@ -16,7 +16,7 @@ const vestidos = [
       "images/2.jpeg",
       "images/3.jpg"
     ],
-    modelo: "Aylen Carrillo", 
+    modelo: "Ailen Carrillo", 
     locacion: "El Refugio de Yala -Jujuy" 
   },
   {
@@ -31,7 +31,7 @@ const vestidos = [
       "images/5.jpg",
       "images/6.jpg"
     ],
-    modelo: "Aylen Carrillo", 
+    modelo: "Ailen Carrillo", 
     locacion: "El Refugio de Yala -Jujuy" 
   },
 {
@@ -45,7 +45,7 @@ const vestidos = [
       "images/8.jpg",
       "images/7.jpg"
     ],
-    modelo: "Aylen Carrillo", 
+    modelo: "Ailen Carrillo", 
     locacion: "El Refugio de Yala -Jujuy" 
   },
  {
@@ -77,7 +77,7 @@ imagenes: [
       "images/15.jpg"
       
     ],
-    modelo: "Aylen Carrillo", 
+    modelo: "Ailen Carrillo", 
     locacion: "El Refugio de Yala -Jujuy" 
   },
 {
@@ -93,7 +93,7 @@ imagen: "images/16.jpg", 
       "images/18.jpg"
       
     ],
-    modelo: "Aylen Carrillo", 
+    modelo: "Ailen Carrillo", 
     locacion: "El Refugio de Yala -Jujuy" 
   },
 {
@@ -125,7 +125,7 @@ imagen: "images/21.jpg",    
       "images/24.jpg"
       
     ],
-    modelo: "Aylen Carrillo", 
+    modelo: "Ailen Carrillo", 
     locacion: "El Refugio de Yala -Jujuy" 
   },
 {
@@ -142,7 +142,7 @@ imagen: "images/25.jpg", 
       "images/28.jpg"
       
     ],
-    modelo: "Aylen Carrillo", 
+    modelo: "Ailen Carrillo", 
     locacion: "El Refugio de Yala -Jujuy" 
   },
   {
@@ -176,7 +176,7 @@ imagenes: [
       "images/43.jpg"
 
     ],
-    modelo: "Aylen Carrillo", 
+    modelo: "Ailen Carrillo", 
     locacion: "El Refugio de Yala -Jujuy" 
   },
     {
@@ -194,7 +194,7 @@ imagenes: [
       "images/38.jpg",
       "images/39.jpg",
     ],
-    modelo: "Aylen Carrillo y Martina Zamar", 
+    modelo: "Ailen Carrillo y Martina Zamar", 
     locacion: "El Refugio de Yala -Jujuy" 
   },
 
@@ -378,7 +378,7 @@ ${imageUrl}`.trim();
 
                 {/* ⭐️ MODIFICACIÓN: Usamos el campo 'modelo' y 'locacion' del vestido ⭐️ */}
                 <div className="modal-metadata">
-                    <p><strong>Modelo:</strong> {vestidoSeleccionado.modelo || "Aylen Carrillo"}</p>
+                    <p><strong>Modelo:</strong> {vestidoSeleccionado.modelo || "Ailen Carrillo"}</p>
                     <p><strong>Locación:</strong> {vestidoSeleccionado.locacion || "El Refugio de Yala"}</p>
                 </div>
                 
