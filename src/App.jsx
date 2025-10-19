@@ -299,6 +299,13 @@ ${imageUrl}`.trim();
 
 
       <section className="products">
+        {/* ✨ INICIO DE LA MODIFICACIÓN ✨ */}
+        <div className="products-intro fade-in">
+          <h2>Tu Vestido Soñado, Hecho Realidad</h2>
+          <p>Cada vestido en este catálogo es una fuente de inspiración. Nos especializamos en la alta costura a medida, trabajando contigo para diseñar y confeccionar la pieza única que siempre imaginaste.</p>
+        </div>
+        {/* ✨ FIN DE LA MODIFICACIÓN ✨ */}
+
 <div className="products-grid">
   {vestidos.map((vestido, index) => (
     <div 
